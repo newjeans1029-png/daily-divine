@@ -656,7 +656,7 @@ var APPROVED = ["2026-10-28","2026-10-29"]; /* 공유카드에 "오늘 붙잡을
     var f = $('foot'); f.textContent = '';
     f.appendChild(document.createTextNode('성구 선정: The Word (Bible 2.0). Association of Bible references by project “Bible 2.0” ('));
     var a = document.createElement('a'); a.href = 'https://bible2.net'; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = 'bible2.net'; f.appendChild(a);
-    f.appendChild(document.createTextNode('). 개역한글(KRV)과 ESV 인용은 Daily Divine 연도 자료(DIVINE_SOURCE)를 그대로 씁니다. ESV: Taken from The Holy Bible, English Standard Version copyright (c) 2001 by Crossway Bibles. Used by permission. All rights reserved. 묵상은 Daily Hub 공개 피드와 같은 글이며, ' + dotDate(dates[0]) + '부터 ' + dotDate(dates[dates.length - 1]) + '까지 ' + dates.length + '편을 담았습니다(' + GENERATED + ').'));
+    f.appendChild(document.createTextNode('). ESV: Taken from The Holy Bible, English Standard Version copyright (c) 2001 by Crossway Bibles. Used by permission. All rights reserved.'));
   })();
   render(pickInitial(), false);
 })();
